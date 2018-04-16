@@ -1,0 +1,1 @@
+LoadProperties.java是utf-8编码，其他是GBK编码

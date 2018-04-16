@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="userDao" class="test.UserDaoImpl"></bean>
+	<bean id="userService" class="test.UserServiceImpl" scope="prototype">
+		<property name="userDao" ref="userDao"></property>
+		<property name="a" value="10"></property>
+<!-- 		<property name="myList" type="int"> -->
+<!-- 			<list> -->
+<!-- 				<value>1</value> -->
+<!-- 				<value>2</value> -->
+<!-- 				<value>3</value> -->
+<!-- 			</list> -->
+<!-- 		</property> -->
+	</bean>
+	<bean id="aService" class="test.proxyfactory.AServiceImpl"></bean>
+	<bean id="bService" class="test.proxyfactory.BServiceImpl"></bean>
+</beans>

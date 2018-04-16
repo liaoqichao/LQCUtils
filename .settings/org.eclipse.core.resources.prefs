@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/lqcUtils/beanFactory/BeanFactory.java=GBK
+encoding//src/lqcUtils/beanFactory/BeanFactoryUtils.java=UTF-8
+encoding//src/lqcUtils/db/JDBCUtils.java=GBK
+encoding//src/lqcUtils/db/TxQueryRunner.java=GBK
+encoding//src/lqcUtils/proxy/BaseAdvice.java=GBK
+encoding//src/lqcUtils/proxy/BeforeAdvice.java=GBK
+encoding//src/lqcUtils/proxy/ProxyFactory.java=GBK
+encoding//src/lqcUtils/service/BaseService.java=GBK
+encoding//src/lqcUtils/service/ServiceFactory.java=GBK
+encoding//src/lqcUtils/service/tx/Isolation.java=GBK
+encoding//src/lqcUtils/service/tx/Propagation.java=GBK
+encoding//src/lqcUtils/service/tx/Tx.java=GBK
+encoding//src/lqcUtils/service/tx/TxBeforeAdvice.java=GBK
+encoding//src/lqcUtils/servlet/BaseServlet.java=GBK
